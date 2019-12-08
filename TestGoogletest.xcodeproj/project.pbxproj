@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		47274C20239CE9C700587EBE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47274C1F239CE9C700587EBE /* main.cpp */; };
+		47274C60239CEFE800587EBE /* libgmock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47274C26239CED1E00587EBE /* libgmock.a */; };
+		47274C61239CEFE800587EBE /* libgtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47274C27239CED1E00587EBE /* libgtest.a */; };
+		47274C63239CF01C00587EBE /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 47274C62239CF01C00587EBE /* libc++.1.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,56 @@
 /* Begin PBXFileReference section */
 		47274C1C239CE9C700587EBE /* TestGoogletest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestGoogletest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47274C1F239CE9C700587EBE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		47274C26239CED1E00587EBE /* libgmock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libgmock.a; sourceTree = "<group>"; };
+		47274C27239CED1E00587EBE /* libgtest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libgtest.a; sourceTree = "<group>"; };
+		47274C2B239CED2600587EBE /* gmock-generated-actions.h.pump */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gmock-generated-actions.h.pump"; sourceTree = "<group>"; };
+		47274C2C239CED2600587EBE /* gmock-generated-function-mockers.h.pump */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gmock-generated-function-mockers.h.pump"; sourceTree = "<group>"; };
+		47274C2D239CED2600587EBE /* gmock-matchers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gmock-matchers.h"; sourceTree = "<group>"; };
+		47274C2E239CED2600587EBE /* gmock-more-actions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gmock-more-actions.h"; sourceTree = "<group>"; };
+		47274C2F239CED2600587EBE /* gmock-generated-matchers.h.pump */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gmock-generated-matchers.h.pump"; sourceTree = "<group>"; };
+		47274C30239CED2600587EBE /* gmock-generated-actions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gmock-generated-actions.h"; sourceTree = "<group>"; };
+		47274C31239CED2600587EBE /* gmock-generated-matchers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gmock-generated-matchers.h"; sourceTree = "<group>"; };
+		47274C33239CED2600587EBE /* gmock-port.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gmock-port.h"; sourceTree = "<group>"; };
+		47274C34239CED2600587EBE /* gmock-internal-utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gmock-internal-utils.h"; sourceTree = "<group>"; };
+		47274C35239CED2600587EBE /* gmock-pp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gmock-pp.h"; sourceTree = "<group>"; };
+		47274C37239CED2600587EBE /* gmock-generated-actions.h.pump */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gmock-generated-actions.h.pump"; sourceTree = "<group>"; };
+		47274C38239CED2600587EBE /* gmock-port.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gmock-port.h"; sourceTree = "<group>"; };
+		47274C39239CED2600587EBE /* gmock-matchers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gmock-matchers.h"; sourceTree = "<group>"; };
+		47274C3A239CED2600587EBE /* gmock-generated-actions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gmock-generated-actions.h"; sourceTree = "<group>"; };
+		47274C3B239CED2600587EBE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		47274C3C239CED2600587EBE /* gmock-function-mocker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gmock-function-mocker.h"; sourceTree = "<group>"; };
+		47274C3D239CED2600587EBE /* gmock-more-matchers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gmock-more-matchers.h"; sourceTree = "<group>"; };
+		47274C3E239CED2600587EBE /* gmock-generated-function-mockers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gmock-generated-function-mockers.h"; sourceTree = "<group>"; };
+		47274C3F239CED2600587EBE /* gmock-cardinalities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gmock-cardinalities.h"; sourceTree = "<group>"; };
+		47274C40239CED2600587EBE /* gmock-spec-builders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gmock-spec-builders.h"; sourceTree = "<group>"; };
+		47274C41239CED2600587EBE /* gmock-nice-strict.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gmock-nice-strict.h"; sourceTree = "<group>"; };
+		47274C42239CED2600587EBE /* gmock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gmock.h; sourceTree = "<group>"; };
+		47274C43239CED2600587EBE /* gmock-actions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gmock-actions.h"; sourceTree = "<group>"; };
+		47274C45239CED3400587EBE /* gtest-matchers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-matchers.h"; sourceTree = "<group>"; };
+		47274C46239CED3400587EBE /* gtest-death-test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-death-test.h"; sourceTree = "<group>"; };
+		47274C47239CED3400587EBE /* gtest-spi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-spi.h"; sourceTree = "<group>"; };
+		47274C49239CED3400587EBE /* gtest-string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-string.h"; sourceTree = "<group>"; };
+		47274C4A239CED3400587EBE /* gtest-death-test-internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-death-test-internal.h"; sourceTree = "<group>"; };
+		47274C4B239CED3400587EBE /* gtest-type-util.h.pump */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "gtest-type-util.h.pump"; sourceTree = "<group>"; };
+		47274C4C239CED3400587EBE /* gtest-port.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-port.h"; sourceTree = "<group>"; };
+		47274C4D239CED3400587EBE /* gtest-port-arch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-port-arch.h"; sourceTree = "<group>"; };
+		47274C4E239CED3400587EBE /* gtest-internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-internal.h"; sourceTree = "<group>"; };
+		47274C4F239CED3400587EBE /* gtest-param-util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-param-util.h"; sourceTree = "<group>"; };
+		47274C50239CED3400587EBE /* gtest-type-util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-type-util.h"; sourceTree = "<group>"; };
+		47274C51239CED3400587EBE /* gtest-filepath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-filepath.h"; sourceTree = "<group>"; };
+		47274C53239CED3400587EBE /* gtest-port.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-port.h"; sourceTree = "<group>"; };
+		47274C54239CED3400587EBE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		47274C55239CED3400587EBE /* gtest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gtest.h; sourceTree = "<group>"; };
+		47274C56239CED3400587EBE /* gtest-printers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-printers.h"; sourceTree = "<group>"; };
+		47274C57239CED3400587EBE /* gtest-message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-message.h"; sourceTree = "<group>"; };
+		47274C58239CED3400587EBE /* gtest-param-test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-param-test.h"; sourceTree = "<group>"; };
+		47274C59239CED3400587EBE /* gtest-typed-test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-typed-test.h"; sourceTree = "<group>"; };
+		47274C5A239CED3400587EBE /* gtest_pred_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gtest_pred_impl.h; sourceTree = "<group>"; };
+		47274C5B239CED3400587EBE /* gtest_prod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gtest_prod.h; sourceTree = "<group>"; };
+		47274C5C239CED3400587EBE /* gtest-test-part.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-test-part.h"; sourceTree = "<group>"; };
+		47274C5D239CED3400587EBE /* gtest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gtest.h; sourceTree = "<group>"; };
+		47274C5E239CED3400587EBE /* gtest-printers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gtest-printers.h"; sourceTree = "<group>"; };
+		47274C62239CF01C00587EBE /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +85,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47274C63239CF01C00587EBE /* libc++.1.tbd in Frameworks */,
+				47274C60239CEFE800587EBE /* libgmock.a in Frameworks */,
+				47274C61239CEFE800587EBE /* libgtest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +99,7 @@
 			children = (
 				47274C1E239CE9C700587EBE /* TestGoogletest */,
 				47274C1D239CE9C700587EBE /* Products */,
+				47274C5F239CEFE800587EBE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +114,114 @@
 		47274C1E239CE9C700587EBE /* TestGoogletest */ = {
 			isa = PBXGroup;
 			children = (
+				47274C44239CED3400587EBE /* gtest */,
+				47274C2A239CED2600587EBE /* gmock */,
+				47274C26239CED1E00587EBE /* libgmock.a */,
+				47274C27239CED1E00587EBE /* libgtest.a */,
 				47274C1F239CE9C700587EBE /* main.cpp */,
 			);
 			path = TestGoogletest;
+			sourceTree = "<group>";
+		};
+		47274C2A239CED2600587EBE /* gmock */ = {
+			isa = PBXGroup;
+			children = (
+				47274C2B239CED2600587EBE /* gmock-generated-actions.h.pump */,
+				47274C2C239CED2600587EBE /* gmock-generated-function-mockers.h.pump */,
+				47274C2D239CED2600587EBE /* gmock-matchers.h */,
+				47274C2E239CED2600587EBE /* gmock-more-actions.h */,
+				47274C2F239CED2600587EBE /* gmock-generated-matchers.h.pump */,
+				47274C30239CED2600587EBE /* gmock-generated-actions.h */,
+				47274C31239CED2600587EBE /* gmock-generated-matchers.h */,
+				47274C32239CED2600587EBE /* internal */,
+				47274C3C239CED2600587EBE /* gmock-function-mocker.h */,
+				47274C3D239CED2600587EBE /* gmock-more-matchers.h */,
+				47274C3E239CED2600587EBE /* gmock-generated-function-mockers.h */,
+				47274C3F239CED2600587EBE /* gmock-cardinalities.h */,
+				47274C40239CED2600587EBE /* gmock-spec-builders.h */,
+				47274C41239CED2600587EBE /* gmock-nice-strict.h */,
+				47274C42239CED2600587EBE /* gmock.h */,
+				47274C43239CED2600587EBE /* gmock-actions.h */,
+			);
+			path = gmock;
+			sourceTree = "<group>";
+		};
+		47274C32239CED2600587EBE /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				47274C33239CED2600587EBE /* gmock-port.h */,
+				47274C34239CED2600587EBE /* gmock-internal-utils.h */,
+				47274C35239CED2600587EBE /* gmock-pp.h */,
+				47274C36239CED2600587EBE /* custom */,
+			);
+			path = internal;
+			sourceTree = "<group>";
+		};
+		47274C36239CED2600587EBE /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				47274C37239CED2600587EBE /* gmock-generated-actions.h.pump */,
+				47274C38239CED2600587EBE /* gmock-port.h */,
+				47274C39239CED2600587EBE /* gmock-matchers.h */,
+				47274C3A239CED2600587EBE /* gmock-generated-actions.h */,
+				47274C3B239CED2600587EBE /* README.md */,
+			);
+			path = custom;
+			sourceTree = "<group>";
+		};
+		47274C44239CED3400587EBE /* gtest */ = {
+			isa = PBXGroup;
+			children = (
+				47274C45239CED3400587EBE /* gtest-matchers.h */,
+				47274C46239CED3400587EBE /* gtest-death-test.h */,
+				47274C47239CED3400587EBE /* gtest-spi.h */,
+				47274C48239CED3400587EBE /* internal */,
+				47274C57239CED3400587EBE /* gtest-message.h */,
+				47274C58239CED3400587EBE /* gtest-param-test.h */,
+				47274C59239CED3400587EBE /* gtest-typed-test.h */,
+				47274C5A239CED3400587EBE /* gtest_pred_impl.h */,
+				47274C5B239CED3400587EBE /* gtest_prod.h */,
+				47274C5C239CED3400587EBE /* gtest-test-part.h */,
+				47274C5D239CED3400587EBE /* gtest.h */,
+				47274C5E239CED3400587EBE /* gtest-printers.h */,
+			);
+			path = gtest;
+			sourceTree = "<group>";
+		};
+		47274C48239CED3400587EBE /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				47274C49239CED3400587EBE /* gtest-string.h */,
+				47274C4A239CED3400587EBE /* gtest-death-test-internal.h */,
+				47274C4B239CED3400587EBE /* gtest-type-util.h.pump */,
+				47274C4C239CED3400587EBE /* gtest-port.h */,
+				47274C4D239CED3400587EBE /* gtest-port-arch.h */,
+				47274C4E239CED3400587EBE /* gtest-internal.h */,
+				47274C4F239CED3400587EBE /* gtest-param-util.h */,
+				47274C50239CED3400587EBE /* gtest-type-util.h */,
+				47274C51239CED3400587EBE /* gtest-filepath.h */,
+				47274C52239CED3400587EBE /* custom */,
+			);
+			path = internal;
+			sourceTree = "<group>";
+		};
+		47274C52239CED3400587EBE /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				47274C53239CED3400587EBE /* gtest-port.h */,
+				47274C54239CED3400587EBE /* README.md */,
+				47274C55239CED3400587EBE /* gtest.h */,
+				47274C56239CED3400587EBE /* gtest-printers.h */,
+			);
+			path = custom;
+			sourceTree = "<group>";
+		};
+		47274C5F239CEFE800587EBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47274C62239CF01C00587EBE /* libc++.1.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,7 +401,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestGoogletest",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/TestGoogletest\"";
 			};
 			name = Debug;
 		};
@@ -247,7 +414,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestGoogletest",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/TestGoogletest\"";
 			};
 			name = Release;
 		};
